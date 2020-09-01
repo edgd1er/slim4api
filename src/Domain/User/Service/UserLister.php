@@ -58,6 +58,7 @@ final class UserLister
 
         $this->logger->debug("UserLister.getUserList: page: $page, size: $pagesize");
         $users = $this->repository->getUsers($page, $pagesize);
+        return $users;
     }
 
     /**
