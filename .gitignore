@@ -9,3 +9,4 @@ tmp/
 *.phar
 */php.php
 *.iml
+tests/reports
